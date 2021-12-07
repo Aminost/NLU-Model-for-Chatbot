@@ -1,0 +1,12 @@
+﻿Exercise Sheet 2
+Task 1
+1. Intent refers to the goal the user has in mind when interacting with the chatbot. Entity refers to the manner how users describe their intent to the chatbot.
+(https://www.helpshift.com/glossary/intent-in-chatbot/)
+2. Ho ho!
+3. - [user first move: ActivatSystem] HO HO!
+- [system move :  RequestTask] HO HO HO! Welcome to the City of Santa! Are you looking for a Christmas present or do you want to go to the Christmas market?
+- [user move:  DeclareTask] I want to go to the Christmas market / I am searching for a Christmas present
+- [system move:  RequestMarketActivity] Christmas market is located at the town hall! Are you looking for something specific?
+- [user move:  DeclareMarketActivity] I am hungry / I am looking for a present!
+- [system move:  NameStands] I recommend the sausage stand or maybe some sweets then go to the chocolate fruits stand. / There are plenty of stands with cute presents for family and friends. For example, you can buy some candles or jewelry.
+- [user move: EndSystem] That sounds great! Thank you, bye?

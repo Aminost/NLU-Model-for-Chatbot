@@ -1,0 +1,2568 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {
+        "text": "hey greetings whatsup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey greetings are you there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello good morning are you around?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey good afternoon how is it going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello morning how is it going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "greetings",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good night",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello good morning sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi greetings whatsup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey are you around",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "greetings sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "morning whatsup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey morning sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey morning how is it going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey good night how are you doing",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello good morning how is it going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello greetings whats up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "greetings are you around",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi greetings how are things going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good day how are you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good day are you there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good afternoon how are you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello good night are you around",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good night whatsup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi how are things going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good night are you around?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey greetings whats up",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey greetings how are you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good morning sup",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "morning are you around",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello are you there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello good day how are things going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning are you around?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey good day how are things going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good day how are you doing",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi morning how is it going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey good day how are you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello morning how are things going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi greetings are you around",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good night how are things going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi good morning how is it going",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "chau",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "heading out ttyl",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you soon bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "im leaving now",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "going out ttyl",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "gtg",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "chao",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "adios",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thank you goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "adieu",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "adieu thank you",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "ttyl",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thank you farewell",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "im leaving now adieu",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "leaving adieu",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "heading out adios",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "heading out chao",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later ttyl",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you soon adios",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thanks ttyl",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "gtg thank you",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye thanks",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later adieu",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you soon adieu",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "have to go chao",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "farewell thank you",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "ttyl thank you",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "going out chao",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thanks adios",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "goodbye thanks",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "heading out gtg",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "leaving gtg",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "im leaving now farewell",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "heading out bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "leaving ttyl",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "have to go adieu",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later chau",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thanks bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "adios thank you",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thank you chao",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "heading out",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "leaving chau",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "im leaving now bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "leaving bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "got to go",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "have to go farewell",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "thank you adieu",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "sounds good",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "sounds good you understood me affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative that is correct yep",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "agreed",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "sounds good that is good right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct that is what i want agreed",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "that is correct sounds good",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "affirmative yep thanks",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes thank you",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "sounds good that is right right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct good yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir that is what i want correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir that is good yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir agreed thank you",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep yes thanks",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep i want that right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "you understood me sounds good",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep good yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep that is good right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "sounds good that is what i want agreed",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep affirmative thank you",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "im ok with that that is what i want yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct that is fine correct",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "agreed you understood me right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep that is right yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right that is correct yes sir",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "sounds good its fine right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct its fine",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "correct that is fine",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir i want that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep im ok with that thanks",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "you understood me right",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir that is what i want agreed",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right good im ok with that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right that is good affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep i want that im ok with that",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "its fine affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir that is good sounds good",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep agreed thank you",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "good yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "im ok with that good affirmative",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep that is what i want sounds good",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "agreed yes thank you",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yep you understood me sounds good",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes agreed",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir that is fine",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "right that is good yes",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "yes sir sounds good thanks",
+        "intent": "affirmative",
+        "entities": []
+      },
+      {
+        "text": "please not really it's not good",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "don't do that plz that's not what i want",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "don't do that pls didnt meant that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no that's not what i want",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope please dont mean that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not really that is wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "that's not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no please didnt meant that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "plz not really it's not good",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "that's not what i want",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "pls no dont mean that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no pls that is wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no plz dont mean that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "don't do that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "pls no didnt meant that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "don't do that that is wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect its not ok",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no plz",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "please nope its not ok",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not really it's not good",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "that is wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "pls incorrect its not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "don't do that pls it's not good",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "plz that's not right dont mean that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "pls not really that's not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no plz that is wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "that's not right plz didnt meant that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no plz that's not what i want",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect please i don't want that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not really please its not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "please no its not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "plz no dont mean that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "plz don't do that that's wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect pls that's wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "plz that's not right it's not good",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope i don't want that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "please don't do that didnt meant that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "please not really i don't want that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "i don't want that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not really plz its not ok",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "please don't do that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no that's not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "no didnt meant that",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "pls no that's wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nope pls that's wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "don't do that that's wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "incorrect please that's wrong",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "that's not right please its not correct",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "hello pls find christmas present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "task",
+            "start": 15,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "find present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "task",
+            "start": 5,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for place to eat",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "task",
+            "start": 16,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hi find market thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 14,
+            "entity": "task",
+            "start": 8,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "find gift",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "task",
+            "start": 5,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "task",
+            "start": 16,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hey please i want to go to christmas market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "task",
+            "start": 27,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to place to eat",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "task",
+            "start": 16,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hey plz i'm searching for present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "task",
+            "start": 26,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hi plz find place to eat thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "task",
+            "start": 12,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hello i'm looking for gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "task",
+            "start": 22,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hi plz i'm searching for christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "task",
+            "start": 25,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hello i'm searching for gift thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "task",
+            "start": 24,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "find market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 11,
+            "entity": "task",
+            "start": 5,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hello please i want to go to place to eat",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "task",
+            "start": 29,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to gift",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "task",
+            "start": 16,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hey i want to go to christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "task",
+            "start": 20,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hello pls i'm looking for christmas market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "task",
+            "start": 26,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hello plz find christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "task",
+            "start": 15,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "find christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "task",
+            "start": 5,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hi please i'm looking for gift",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 26,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hi i'm searching for market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "task",
+            "start": 21,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hi plz i'm looking for gift thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "task",
+            "start": 23,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hi please find christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "task",
+            "start": 15,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "task",
+            "start": 16,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hi find present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 15,
+            "entity": "task",
+            "start": 8,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "help me find present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "task",
+            "start": 13,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hi pls i want to go to gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "task",
+            "start": 23,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hey i'm searching for place to eat thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "task",
+            "start": 22,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "find present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "task",
+            "start": 5,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hi plz i'm searching for christmas present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "task",
+            "start": 25,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hello i want to go to gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "task",
+            "start": 22,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hi plz find market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "task",
+            "start": 12,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hello pls i want to go to place to eat",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "task",
+            "start": 26,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hey find place to eat thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 21,
+            "entity": "task",
+            "start": 9,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "task",
+            "start": 18,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "please i want to go to gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "task",
+            "start": 23,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "pls i'm searching for christmas present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 39,
+            "entity": "task",
+            "start": 22,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "find place to eat",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "task",
+            "start": 5,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hello help me find christmas present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "task",
+            "start": 19,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hi pls i'm looking for present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 23,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for place to eat thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 28,
+            "entity": "task",
+            "start": 16,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for gift",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "task",
+            "start": 16,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hey please help me find place to eat thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "task",
+            "start": 24,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "help me find market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "task",
+            "start": 13,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hi pls i'm looking for present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 23,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "plz help me find place to eat thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "task",
+            "start": 17,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "task",
+            "start": 18,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "task",
+            "start": 16,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hey please i'm looking for present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "task",
+            "start": 27,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hi pls help me find gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "task",
+            "start": 20,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hello i'm looking for place to eat thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "task",
+            "start": 22,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hi i'm searching for christmas present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "task",
+            "start": 21,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hey i want to go to market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "task",
+            "start": 20,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hey plz find place to eat thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "task",
+            "start": 13,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hi i want to go to christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "task",
+            "start": 19,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for gift",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "task",
+            "start": 18,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for place to eat",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 18,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hey pls i'm looking for christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "task",
+            "start": 24,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hi i'm looking for gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "task",
+            "start": 19,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hi help me find present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "task",
+            "start": 16,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hey pls i want to go to market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 24,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hello plz i'm searching for market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "task",
+            "start": 28,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hey plz i'm looking for christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "task",
+            "start": 24,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "pls find present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "task",
+            "start": 9,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hello pls i'm looking for gift thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 26,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "help me find place to eat",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "task",
+            "start": 13,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hello help me find market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "task",
+            "start": 19,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "please help me find place to eat thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "task",
+            "start": 20,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hey plz i'm searching for christmas market thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 42,
+            "entity": "task",
+            "start": 26,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "help me find christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 13,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hello please i'm searching for present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "task",
+            "start": 31,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hi help me find christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "task",
+            "start": 16,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hey pls i want to go to christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "task",
+            "start": 24,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hello i'm looking for christmas market thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "task",
+            "start": 22,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hello i'm searching for market thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 30,
+            "entity": "task",
+            "start": 24,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hello i want to go to christmas market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "task",
+            "start": 22,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hey plz i'm searching for christmas present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "task",
+            "start": 26,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "pls find christmas present thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "task",
+            "start": 9,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hey plz find market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "task",
+            "start": 13,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "help me find christmas market thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "task",
+            "start": 13,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "plz i want to go to gift",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "task",
+            "start": 20,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hello please i want to go to gift",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "task",
+            "start": 29,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hey pls help me find christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 37,
+            "entity": "task",
+            "start": 21,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hello pls i'm searching for place to eat thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "task",
+            "start": 28,
+            "value": "place to eat"
+          }
+        ]
+      },
+      {
+        "text": "hello plz find present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "task",
+            "start": 15,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hi i'm searching for christmas present",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 38,
+            "entity": "task",
+            "start": 21,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "hi pls i'm looking for gift thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 27,
+            "entity": "task",
+            "start": 23,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for christmas market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "task",
+            "start": 18,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hello pls i want to go to market thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "task",
+            "start": 26,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "hello please i'm searching for christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 47,
+            "entity": "task",
+            "start": 31,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hello pls i'm searching for market thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "task",
+            "start": 28,
+            "value": "market"
+          }
+        ]
+      },
+      {
+        "text": "plz i want to go to christmas market thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 36,
+            "entity": "task",
+            "start": 20,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hey please i'm looking for gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "task",
+            "start": 27,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hey pls i want to go to christmas present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "task",
+            "start": 24,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to gift thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "task",
+            "start": 16,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "hi please i'm looking for present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 33,
+            "entity": "task",
+            "start": 26,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "hello i'm searching for christmas market",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 40,
+            "entity": "task",
+            "start": 24,
+            "value": "christmas market"
+          }
+        ]
+      },
+      {
+        "text": "hey pls i'm looking for christmas present thank you",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "task",
+            "start": 24,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "please find gift thanks",
+        "intent": "declareTask",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "task",
+            "start": 12,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for i'm hungry",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "activity",
+            "start": 16,
+            "value": "i'm hungry"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to i'm hungry",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "activity",
+            "start": 16,
+            "value": "i'm hungry"
+          }
+        ]
+      },
+      {
+        "text": "something to eat",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 16,
+            "entity": "activity",
+            "start": 0,
+            "value": "something to eat"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for something to eat",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "activity",
+            "start": 16,
+            "value": "something to eat"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for something to eat",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 34,
+            "entity": "activity",
+            "start": 18,
+            "value": "something to eat"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to something to eat",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 32,
+            "entity": "activity",
+            "start": 16,
+            "value": "something to eat"
+          }
+        ]
+      },
+      {
+        "text": "sausages",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 8,
+            "entity": "activity",
+            "start": 0,
+            "value": "sausages"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for sausages",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "activity",
+            "start": 16,
+            "value": "sausages"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for sausages",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "activity",
+            "start": 18,
+            "value": "sausages"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to sausages",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 24,
+            "entity": "activity",
+            "start": 16,
+            "value": "sausages"
+          }
+        ]
+      },
+      {
+        "text": "crepes",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 6,
+            "entity": "activity",
+            "start": 0,
+            "value": "crepes"
+          }
+        ]
+      },
+      {
+        "text": "help me find crepes",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 19,
+            "entity": "activity",
+            "start": 13,
+            "value": "crepes"
+          }
+        ]
+      },
+      {
+        "text": "i want to drink something",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "activity",
+            "start": 0,
+            "value": "i want to drink something"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for i want to drink something",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "activity",
+            "start": 16,
+            "value": "i want to drink something"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for i want to drink something",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 43,
+            "entity": "activity",
+            "start": 18,
+            "value": "i want to drink something"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to i want to drink something",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 41,
+            "entity": "activity",
+            "start": 16,
+            "value": "i want to drink something"
+          }
+        ]
+      },
+      {
+        "text": "find hot chocolate",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 18,
+            "entity": "activity",
+            "start": 5,
+            "value": "hot chocolate"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for hot chocolate",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 31,
+            "entity": "activity",
+            "start": 18,
+            "value": "hot chocolate"
+          }
+        ]
+      },
+      {
+        "text": "help me find hot chocolate",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 26,
+            "entity": "activity",
+            "start": 13,
+            "value": "hot chocolate"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to hot chocolate",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 29,
+            "entity": "activity",
+            "start": 16,
+            "value": "hot chocolate"
+          }
+        ]
+      },
+      {
+        "text": "find christmas present",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "activity",
+            "start": 5,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for christmas present",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 35,
+            "entity": "activity",
+            "start": 18,
+            "value": "christmas present"
+          }
+        ]
+      },
+      {
+        "text": "find present",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 12,
+            "entity": "activity",
+            "start": 5,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for present",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 23,
+            "entity": "activity",
+            "start": 16,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for present",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 25,
+            "entity": "activity",
+            "start": 18,
+            "value": "present"
+          }
+        ]
+      },
+      {
+        "text": "find gift",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 9,
+            "entity": "activity",
+            "start": 5,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for gift",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "activity",
+            "start": 16,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "i'm searching for gift",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 22,
+            "entity": "activity",
+            "start": 18,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "help me find gift",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 17,
+            "entity": "activity",
+            "start": 13,
+            "value": "gift"
+          }
+        ]
+      },
+      {
+        "text": "i want to go to gift",
+        "intent": "declareMarketActivity",
+        "entities": [
+          {
+            "end": 20,
+            "entity": "activity",
+            "start": 16,
+            "value": "gift"
+          }
+        ]
+      }
+    ]
+  }
+}
